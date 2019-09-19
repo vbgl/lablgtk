@@ -31,7 +31,7 @@ matrix:
   include:
     - os: osx
       env:
-        - TEST_TARGET="build" COMPILER="4.07.1"
+        - TEST_TARGET="build-all" COMPILER="4.07.1"
         - PKG_CONFIG_PATH=/usr/local/opt/libffi/lib/pkgconfig
       cache:
         ccache: true
